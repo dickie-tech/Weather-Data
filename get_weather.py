@@ -20,7 +20,7 @@ print (data)
 
 daily_data = data['daily']
 df = pd.DataFrame({
-      'date': daily_data['date'],
+      'date': daily_data['time'],
       'max_temp': daily_data['temperature_2m_max'],
       'min_temp': daily_data['temperature_2m_min']
 })
